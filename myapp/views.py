@@ -6,7 +6,7 @@ from rest_framework.exceptions import PermissionDenied
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 
-from app.serializers import LoginSerializer, RegisterSerializer
+from myapp.serializers import LoginSerializer, RegisterSerializer
 
 
 class UserViewSet(viewsets.ViewSet):

@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from rest_framework.routers import DefaultRouter
 
-from app.views import UserViewSet
+from myapp.views import UserViewSet
 
 urlpatterns = [
     path('admin/', admin.site.urls),
