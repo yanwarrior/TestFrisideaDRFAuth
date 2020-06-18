@@ -2,7 +2,8 @@ asgiref==3.2.9
 Django==3.0.7
 django-cors-headers==3.4.0
 djangorestframework==3.11.0
-djangorestframework-simplejwt==4.4.0
-PyJWT==1.7.1
+future==0.18.2
+mysqlclient==1.4.6
 pytz==2020.1
+serializers==0.2.4
 sqlparse==0.3.1
